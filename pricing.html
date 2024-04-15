@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <!-- fonts file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- slider-link -->
+    <link rel="stylesheet" href="css/splide-core.min.css">
+    <link rel="stylesheet" href="css/splide-default.min.css">
+    <link rel="stylesheet" href="css/splide-sea-green.min.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+</head>
+
+<body>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/splide.min.js"></script>
+
+    <!-- hdr -->
+    <nav class="navbar navbar-expand-lg navbar-light p-0 htop">
+        <div class="container-fluid pd">
+            <!-- logo -->
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <div class=" navbar-collapse d-flex justify-content-end">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- icon -->
+            <div class="flex set">
+                <div class="edit-i flex">
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter flex"></i></a>
+                </div>
+                <div class="edit-i flex">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram flex"></i></a>
+                </div>
+                <div class="edit-i flex">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f flex"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- small-hdr -->
+        <div class="d-flex d-hide">
+            <a href=""><img src="img/b-logo.png" alt=""></a>
+        </div>
+        <div class="my-tog-btn" id="text">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="side-menu side-menu-active">
+            <div class="text1">
+                <i class="fa-solid fa-xmark i-con"></i>
+            </div>
+            <div class="inner">
+                <div class="s-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- hide/show btn -->
+    <script>
+        $(document).ready(function () {
+            var i = 0;
+            $("#text").click(function () {
+                if (i % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+            });
+        });
+        $(document).ready(function () {
+            var a = 1;
+            $(".text1").click(function () {
+                if (a % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+                // i++;
+            });
+        });
+
+    </script>
+    <!-- SLIDER-IMG -->
+    <div class="container-fluid p-0">
+        <div class="img flex">
+            <div class="on-tx">
+                <h1>Services & Prices</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Services And Prices -->
+    <div class="container-fluid p-0">
+        <div class="container">
+            <div class="row pding">
+                <div class="col-6 d-flex in-w-768">
+                    <div class="tx-set2 ">
+                        <h2>Editorial / Stage</h2>
+                        <div class="list d-flex">
+                            <p>Full Body Makeup Package</p>
+                            <div class="line-btm"></div>
+                            <p class="price">85$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Wedding Beauty New</p>
+                            <div class="line-btm"></div>
+                            <p class="price">35$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>One Event Makeup</p>
+                            <div class="line-btm"></div>
+                            <p class="price">94$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Personal Makeup Artist</p>
+                            <div class="line-btm"></div>
+                            <p class="price">63$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Full Body Makeup Package</p>
+                            <div class="line-btm"></div>
+                            <p class="price">83$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Wedding Beauty New</p>
+                            <div class="line-btm"></div>
+                            <p class="price">35$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>One Event Makeup</p>
+                            <div class="line-btm"></div>
+                            <p class="price">94$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 in-w-768">
+                    <div class="s-img"></div>
+                </div>
+            </div>
+
+
+            <div class="row pding2">
+                <div class="col-6 in-w-768">
+                    <div class="s-img2"></div>
+                </div>
+                <div class="col-6 d-flex in-w-768">
+                    <div class="tx-set2 ">
+                        <h2>Editorial / Stage</h2>
+                        <div class="list d-flex">
+                            <p>Full Body Makeup Package</p>
+                            <div class="line-btm"></div>
+                            <p class="price">85$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Wedding Beauty New</p>
+                            <div class="line-btm"></div>
+                            <p class="price">35$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>One Event Makeup</p>
+                            <div class="line-btm"></div>
+                            <p class="price">94$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Personal Makeup Artist</p>
+                            <div class="line-btm"></div>
+                            <p class="price">63$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Full Body Makeup Package</p>
+                            <div class="line-btm"></div>
+                            <p class="price">83$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Wedding Beauty New</p>
+                            <div class="line-btm"></div>
+                            <p class="price">35$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>One Event Makeup</p>
+                            <div class="line-btm"></div>
+                            <p class="price">94$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row pding3">
+                <div class="col-6 d-flex in-w-768">
+                    <div class="tx-set2 ">
+                        <h2>Editorial / Stage</h2>
+                        <div class="list d-flex">
+                            <p>Full Body Makeup Package</p>
+                            <div class="line-btm"></div>
+                            <p class="price">85$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Wedding Beauty New</p>
+                            <div class="line-btm"></div>
+                            <p class="price">35$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>One Event Makeup</p>
+                            <div class="line-btm"></div>
+                            <p class="price">94$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Personal Makeup Artist</p>
+                            <div class="line-btm"></div>
+                            <p class="price">63$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Full Body Makeup Package</p>
+                            <div class="line-btm"></div>
+                            <p class="price">83$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>Wedding Beauty New</p>
+                            <div class="line-btm"></div>
+                            <p class="price">35$</p>
+                        </div>
+                        <div class="list d-flex">
+                            <p>One Event Makeup</p>
+                            <div class="line-btm"></div>
+                            <p class="price">94$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 in-w-768">
+                    <div class="s-img3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- futter -->
+    <div class="container-fluid p-0">
+        <div class="container pding-f bdr">
+            <div class="row futer">
+                <div class="col-3 in-w-768">
+                    <h5>About Me</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus venenatis porta. Aliq
+                    </p>
+                    <h5>Get Our Newsletter</h5>
+                    <input type="text" placeholder="Enter Your Email">
+                    <button type="button" class="btn btn-secondary">Send</button>
+                </div>
+                <div class="col-3 in-w-768">
+                    <h5>Usefull Links</h5>
+                    <ul>
+                        <li>
+                            <a href="pricing.html">Our Prices</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Our Salon</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Working Hours</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 in-w-768">
+                    <h5>Twitter</h5>
+                    <p>Couldn't connect with Twitter</p>
+                </div>
+                <div class="col-3 in-w-768">
+                    <h5>Instagram</h5>
+                </div>
+            </div>
+        </div>
+        <p class="tx-end">© Copyright Qode Interactive</p>
+    </div>
+
+</body>
+
+</html>
